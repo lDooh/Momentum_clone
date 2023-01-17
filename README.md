@@ -39,3 +39,7 @@ function isBlank(str) {
 ```
 
 + 입력한 이름 & ToDo가 공백으로만 이루어져 있다면 true를 반환한다.
+
+## 기상청 날씨 API 이용
+
++ [기상청기상청_단기예보 ((구)_동네예보) 조회서비스](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15084084)
