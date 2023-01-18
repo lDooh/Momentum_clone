@@ -106,7 +106,6 @@ function onGeoSuccess(position) {
         const weather = document.querySelector("#weather span:last-child");
 
         fore = getWeatherFromJSON(data);
-        console.log(`${fore.temp}, ${fore.cloud}, ${fore.rain}`);
 
         // city.innerText = data.name;
         weather.innerText = `${fore.temp}℃, ${fore.cloud}, ${fore.rain}`;
